@@ -1,5 +1,7 @@
-# Importing the library
+# Importing the libraries
 import math
+import time
+start_time = time.time()
 # Asking the user the value of Alpha
 a = int(input("What is the value of a [a*(x**2)]: "))
 # Asking the user the value of Beta
@@ -69,6 +71,9 @@ else:
         print("x  = (",x_arithmitis1,") / (",x_paronomastis1,")")
         print("x  = ",x_apotelesma1)
         print("===================================================")
+end_time = time.time()
+print(f"Time taken: {end_time - start_time} seconds")
+print("===================================================")
 # Made by Avtovaz
 # My GitHub: https://github.com/AvtoVAZ
 
